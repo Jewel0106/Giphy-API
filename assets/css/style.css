@@ -1,0 +1,46 @@
+body{
+background: black;
+text-align: center;
+}
+
+h1{
+color:yellow;
+margin: 20px 0 20px 0;
+font-size: 50px;
+}
+
+#emotions-form{
+}
+
+#emotions-input{
+}
+
+#add-emotion{
+}
+
+#buttons-container{
+
+}
+
+.emotionButton{
+	margin: 10px;
+	padding:5px 10px;
+	border-radius:5px;
+	background:#6600ff;
+	color:white;
+}
+
+.emotionsTopics{
+	float: left;
+	width:275px;
+	margin: 10px;
+}
+
+#emotions{
+
+}
+
+p{
+	color:white;
+	margin:10px;
+}

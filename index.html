@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Giphy API</title>
+
+	<link rel="stylesheet" text="text/css" href="assets/css/reset.css">
+
+	<!--Bootstrap CSS CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!--jquery CDN -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- Bootstrap Javascript CDN -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!--style.css link -->
+	<link rel="stylesheet" text="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<h1>Very Emotional Gifs</h1>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<form class="navbar-form navbar" role="search" id="emotions-form">
+				<div class="form-group">
+				    <input type="text" class="form-control" placeholder="Add an new button" id="emotions-input">
+				</div>
+				 
+				 <button type="submit" class="btn btn-default" id="submitButton">Submit</button>
+			</form>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div id="buttons-container"></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-12">
+			<div id="emotions"></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="assets/javascript/api.js"></script>
+	
+</body>
+</html>
